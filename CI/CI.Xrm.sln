@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CI.Xrm", "Xrm\CI.Xrm.csproj", "{55C534D4-BB6F-4DA9-AD0B-8B3104B418CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55C534D4-BB6F-4DA9-AD0B-8B3104B418CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55C534D4-BB6F-4DA9-AD0B-8B3104B418CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55C534D4-BB6F-4DA9-AD0B-8B3104B418CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55C534D4-BB6F-4DA9-AD0B-8B3104B418CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {555A69F6-9C96-48C0-AEA7-E979BF193022}
+	EndGlobalSection
+EndGlobal

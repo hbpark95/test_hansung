@@ -1,0 +1,16 @@
+D:\svn\LG_Twins\trunk\src\CI\XrmEntity\bin\Release\CI.XrmEntity.dll
+D:\svn\LG_Twins\trunk\src\CI\XrmEntity\bin\Release\CI.XrmEntity.pdb
+D:\svn\LG_Twins\trunk\src\CI\XrmEntity\bin\Release\Microsoft.Crm.Sdk.Proxy.dll
+D:\svn\LG_Twins\trunk\src\CI\XrmEntity\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\svn\LG_Twins\trunk\src\CI\XrmEntity\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+D:\svn\LG_Twins\trunk\src\CI\XrmEntity\bin\Release\Microsoft.Xrm.Sdk.dll
+D:\svn\LG_Twins\trunk\src\CI\XrmEntity\bin\Release\Newtonsoft.Json.dll
+D:\svn\LG_Twins\trunk\src\CI\XrmEntity\bin\Release\Microsoft.Crm.Sdk.Proxy.xml
+D:\svn\LG_Twins\trunk\src\CI\XrmEntity\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+D:\svn\LG_Twins\trunk\src\CI\XrmEntity\bin\Release\Microsoft.Xrm.Sdk.xml
+D:\svn\LG_Twins\trunk\src\CI\XrmEntity\bin\Release\Newtonsoft.Json.xml
+D:\svn\LG_Twins\trunk\src\CI\XrmEntity\obj\Release\CI.XrmEntity.csprojAssemblyReference.cache
+D:\svn\LG_Twins\trunk\src\CI\XrmEntity\obj\Release\CI.XrmEntity.csproj.CoreCompileInputs.cache
+D:\svn\LG_Twins\trunk\src\CI\XrmEntity\obj\Release\CI.XrmEntity.csproj.CopyComplete
+D:\svn\LG_Twins\trunk\src\CI\XrmEntity\obj\Release\CI.XrmEntity.dll
+D:\svn\LG_Twins\trunk\src\CI\XrmEntity\obj\Release\CI.XrmEntity.pdb
