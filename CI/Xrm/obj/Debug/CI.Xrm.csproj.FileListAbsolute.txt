@@ -90,7 +90,7 @@ D:\svn\HANSUNG\trunk\src\ISV\CI\Xrm\bin\Debug\Microsoft.Xrm.Sdk.Deployment.xml
 D:\svn\HANSUNG\trunk\src\ISV\CI\Xrm\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
 D:\svn\HANSUNG\trunk\src\ISV\CI\Xrm\bin\Debug\Microsoft.Xrm.Tooling.Connector.xml
 D:\svn\HANSUNG\trunk\src\ISV\CI\Xrm\bin\Debug\Newtonsoft.Json.xml
+D:\svn\HANSUNG\trunk\src\ISV\CI\Xrm\obj\Debug\CI.Xrm.csprojAssemblyReference.cache
 D:\svn\HANSUNG\trunk\src\ISV\CI\Xrm\obj\Debug\CI.Xrm.csproj.CopyComplete
 D:\svn\HANSUNG\trunk\src\ISV\CI\Xrm\obj\Debug\CI.Xrm.dll
 D:\svn\HANSUNG\trunk\src\ISV\CI\Xrm\obj\Debug\CI.Xrm.pdb
-D:\svn\HANSUNG\trunk\src\ISV\CI\Xrm\obj\Debug\CI.Xrm.csprojAssemblyReference.cache

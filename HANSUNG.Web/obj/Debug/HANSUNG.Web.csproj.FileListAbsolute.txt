@@ -1,4 +1,3 @@
-D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\obj\Debug\HANSUNG.Web.csprojAssemblyReference.cache
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\NLog.config
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\HANSUNG.dll.config
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\HANSUNG.dll
@@ -147,6 +146,7 @@ D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\ko\Microsoft.Owin.Security.Facebook
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\ko\Microsoft.Owin.Security.Google.resources.dll
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\ko\Microsoft.Owin.Security.Twitter.resources.dll
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\ko\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\obj\Debug\HANSUNG.Web.csprojAssemblyReference.cache
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\obj\Debug\HANSUNG.Web.csproj.CopyComplete
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\obj\Debug\HANSUNG.dll
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\obj\Debug\HANSUNG.pdb
