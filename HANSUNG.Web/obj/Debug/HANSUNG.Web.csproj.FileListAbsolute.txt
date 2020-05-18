@@ -87,7 +87,6 @@ D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\Microsoft.Xrm.Sdk.dll
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\CI.XrmEntity.dll
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\CI.Xrm.dll
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\Microsoft.Xrm.Tooling.Connector.dll
-D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\Microsoft.Crm.Sdk.Proxy.dll
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\Microsoft.Rest.ClientRuntime.dll
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\Microsoft.Xrm.Sdk.Deployment.dll
@@ -150,3 +149,4 @@ D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\obj\Debug\HANSUNG.Web.csprojAssemblyRef
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\obj\Debug\HANSUNG.Web.csproj.CopyComplete
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\obj\Debug\HANSUNG.dll
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\obj\Debug\HANSUNG.pdb
+D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll

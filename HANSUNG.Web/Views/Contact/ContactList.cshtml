@@ -1,0 +1,108 @@
+﻿@*@model HANSUNG.Core.Models.ViewModelContactList*@
+
+@{
+    ViewBag.Title = "ContactList";
+}
+
+<h2>ContactList</h2>
+
+<div id="grid">
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://uicdn.toast.com/tui-grid/latest/tui-grid.css" />
+<script src="https://uicdn.toast.com/tui-grid/latest/tui-grid.js"></script>
+
+<script type="text/javascript" src="https://uicdn.toast.com/tui.code-snippet/v1.5.0/tui-code-snippet.js"></script>
+<script type="text/javascript" src="https://uicdn.toast.com/tui.pagination/v3.3.0/tui-pagination.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        const dataSource = {
+            api: {
+                readData: {
+                    url: 'GetContactList',
+                    method: 'GET',
+                    initParams: { page: 1, perPage: 10 }
+                }
+            }
+        };
+
+        const grid = new tui.Grid({
+            el: document.getElementById('grid'),
+            data: dataSource,
+            scrollX: false,
+            scrollY: false,
+            minBodyHeight: 30,
+            rowHeaders: ['rowNum'],
+            pageOptions: {
+                useClient: true,
+                perPage: 10
+            },
+            columns: [
+                {
+                    header: 'Name',
+                    name: 'FullName'
+                },
+                {
+                    header: 'Email',
+                    name: 'Email'
+                }
+            ]
+        }); //grid
+
+        //var dataGrid = [];
+
+        //$.ajax({
+        //    url: "https://contactdown.azurewebsites.net/Contact/GetContactList?currPage=1&perPage=10",
+        //    type: 'GET',
+        //    success: function (data) {
+
+        //        const dataSource = {
+        //            api: {
+        //                readData: { url: '/api/read', method: 'GET', initParams: { param: 'param' } }
+        //            }
+        //        };
+
+        //        for (var i = 0; i < data.ContactList.length; i++) {
+        //            dataGrid.push({
+        //                FullName: data.ContactList[i].FullName,
+        //                Email: data.ContactList[i].Email,
+        //            });
+        //        }
+
+        //        const grid = new tui.Grid({
+        //            el: document.getElementById('grid'),
+        //            data: dataGrid,
+        //            scrollX: false,
+        //            scrollY: false,
+        //            minBodyHeight: 30,
+        //            rowHeaders: ['rowNum'],
+        //            pageOptions: {
+        //                useClient: true,
+        //                perPage: 10
+        //            },
+        //            columns: [
+        //                {
+        //                    header: 'Name',
+        //                    name: 'FullName'
+        //                },
+        //                {
+        //                    header: 'Email',
+        //                    name: 'Email'
+        //                }
+        //            ]
+        //        }); //grid
+
+        //    },
+
+        //    error: function (request, status, error) {
+        //        alert("code:" + request.status + "\n" + "message:" + request.responseText + "\n" + "error:" + error);
+        //    }
+        //});
+
+
+    });
+</script>

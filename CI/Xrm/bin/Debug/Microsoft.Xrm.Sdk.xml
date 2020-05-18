@@ -34,7 +34,9 @@ The name of the entity the attribute belongs to.</returns>
       <summary>Gets the value returned by the query.</summary>
       <returns>Type: ObjectThe value returned by the query.</returns>
     </member>
-    <member name="T:Microsoft.Xrm.Sdk.AnalyticsStoreDetails" />
+    <member name="T:Microsoft.Xrm.Sdk.AnalyticsStoreDetails">
+      <summary>Contains information about the analytics storage container.</summary>
+    </member>
     <member name="M:Microsoft.Xrm.Sdk.AnalyticsStoreDetails.#ctor" />
     <member name="P:Microsoft.Xrm.Sdk.AnalyticsStoreDetails.Endpoint" />
     <member name="P:Microsoft.Xrm.Sdk.AnalyticsStoreDetails.ExtensionData" />
@@ -1130,9 +1132,7 @@ The security token response.</returns>
       <returns>Type: String.The version of the client.</returns>
     </member>
     <member name="P:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.SyncOperationType">
-      <summary>No token name is specified &lt;token xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"&gt;
-        &lt;?Comment AL: Marked as internal per bug114678 2013-09-17T18:04:00Z  Id='8?&gt;internal&lt;?CommentEnd Id='8'
-?&gt;&lt;/token&gt;.</summary>
+      <summary>For internal use only.</summary>
       <returns>Type: String.</returns>
     </member>
     <member name="M:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.Update(Microsoft.Xrm.Sdk.Entity)">
@@ -1869,7 +1869,9 @@ A collection containing the values in the <see cref="T:Microsoft.Xrm.Sdk.DataCol
     <member name="F:Microsoft.Xrm.Sdk.DateTimeBehaviorConversionRule.SpecificTimeZone">
       <summary>Converts UTC value to a DateOnly value as per the time zone code specified in the <see cref="T:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest" />.<see cref="P:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest.TimeZoneCode" /> parameter.</summary>
     </member>
-    <member name="T:Microsoft.Xrm.Sdk.DependencySummary" />
+    <member name="T:Microsoft.Xrm.Sdk.DependencySummary">
+      <summary>Contains data from the dependent entity.</summary>
+    </member>
     <member name="M:Microsoft.Xrm.Sdk.DependencySummary.#ctor" />
     <member name="P:Microsoft.Xrm.Sdk.DependencySummary.DependencyId" />
     <member name="P:Microsoft.Xrm.Sdk.DependencySummary.DependencyType" />
@@ -2056,6 +2058,9 @@ For the Web API use the EndpointType EnumType.</summary>
       <summary>Gets a collection that identifies the service type and address for each endpoint of the organization.</summary>
       <returns>Type: <see cref="T:Microsoft.Xrm.Sdk.Discovery.EndpointCollection" />The collection that identifies the service type and address for each endpoint of the organization.</returns>
     </member>
+    <member name="P:Microsoft.Xrm.Sdk.Discovery.OrganizationDetail.EnvironmentId">
+      <summary>Gets or sets the unique identifier of the organization’s environment.</summary>
+    </member>
     <member name="P:Microsoft.Xrm.Sdk.Discovery.OrganizationDetail.ExtensionData">
       <summary>Gets or sets extra data of the organization.</summary>
       <returns>Type: ExtensionDataObject Extra data of the organization.</returns>
@@ -2063,6 +2068,9 @@ For the Web API use the EndpointType EnumType.</summary>
     <member name="P:Microsoft.Xrm.Sdk.Discovery.OrganizationDetail.FriendlyName">
       <summary>Gets or sets the friendly name of the organization.</summary>
       <returns>Type: String The friendly name of the organization.</returns>
+    </member>
+    <member name="P:Microsoft.Xrm.Sdk.Discovery.OrganizationDetail.Geo">
+      <summary>Gets or sets a value that represents the geographic region the tenant is found in.</summary>
     </member>
     <member name="P:Microsoft.Xrm.Sdk.Discovery.OrganizationDetail.OrganizationId">
       <summary>Gets or sets global unique identifier of the organization.</summary>
@@ -2075,6 +2083,9 @@ For the Web API use the EndpointType EnumType.</summary>
     <member name="P:Microsoft.Xrm.Sdk.Discovery.OrganizationDetail.State">
       <summary>Gets or sets the state of the organization.</summary>
       <returns>Type: <see cref="T:Microsoft.Xrm.Sdk.Discovery.OrganizationState" />The state of the organization.</returns>
+    </member>
+    <member name="P:Microsoft.Xrm.Sdk.Discovery.OrganizationDetail.TenantId">
+      <summary>Gets or sets the unique identifier of the PowerApps tenant that contains the environment and organization.</summary>
     </member>
     <member name="P:Microsoft.Xrm.Sdk.Discovery.OrganizationDetail.UniqueName">
       <summary>Gets or sets the unique name of the organization.</summary>
@@ -2295,7 +2306,9 @@ The formatted value of the attribute.</returns>
       <typeparam name="TEntity">Type: <see cref="T:Microsoft.Xrm.Sdk.Entity" />. The type of the entity.</typeparam>
       <returns>Type: <see cref="T:Microsoft.Xrm.Sdk.Entity" />The collection of related entity instances for the specified relationship.</returns>
     </member>
-    <member name="P:Microsoft.Xrm.Sdk.Entity.HasLazyFileAttribute" />
+    <member name="P:Microsoft.Xrm.Sdk.Entity.HasLazyFileAttribute">
+      <summary>For internal use only.</summary>
+    </member>
     <member name="P:Microsoft.Xrm.Sdk.Entity.Id">
       <summary>Gets or sets the ID of the record represented by this entity instance.</summary>
       <returns>Type: Guid
@@ -2310,10 +2323,18 @@ The ID of the record (entity instance).</returns>
       <summary>Gets or sets the key attributes.</summary>
       <returns>Type:<see cref="T:Microsoft.Xrm.Sdk.KeyAttributeCollection" />.</returns>
     </member>
-    <member name="P:Microsoft.Xrm.Sdk.Entity.LazyFileAttributeKey" />
-    <member name="P:Microsoft.Xrm.Sdk.Entity.LazyFileAttributeValue" />
-    <member name="P:Microsoft.Xrm.Sdk.Entity.LazyFileSizeAttributeKey" />
-    <member name="P:Microsoft.Xrm.Sdk.Entity.LazyFileSizeAttributeValue" />
+    <member name="P:Microsoft.Xrm.Sdk.Entity.LazyFileAttributeKey">
+      <summary>For internal use only.</summary>
+    </member>
+    <member name="P:Microsoft.Xrm.Sdk.Entity.LazyFileAttributeValue">
+      <summary>For internal use only.</summary>
+    </member>
+    <member name="P:Microsoft.Xrm.Sdk.Entity.LazyFileSizeAttributeKey">
+      <summary>For internal use only.</summary>
+    </member>
+    <member name="P:Microsoft.Xrm.Sdk.Entity.LazyFileSizeAttributeValue">
+      <summary>For internal use only.</summary>
+    </member>
     <member name="P:Microsoft.Xrm.Sdk.Entity.LogicalName">
       <summary>Gets or sets the logical name of the entity.</summary>
       <returns>Type: Stringthe logical name of the entity.</returns>
@@ -2409,12 +2430,18 @@ The current paging information. This is used in conjunction with <see cref="P:Mi
       <summary>Gets or sets whether the results of the query exceeds the total record count.</summary>
       <returns>Type: Booleantrue if the results of the query exceeds the total record count; otherwise, false..</returns>
     </member>
-    <member name="T:Microsoft.Xrm.Sdk.EntityFilePointersRequest" />
+    <member name="T:Microsoft.Xrm.Sdk.EntityFilePointersRequest">
+      <summary>Contains the data to reconcile entity file pointers.</summary>
+    </member>
     <member name="M:Microsoft.Xrm.Sdk.EntityFilePointersRequest.#ctor" />
     <member name="P:Microsoft.Xrm.Sdk.EntityFilePointersRequest.ExtensionData" />
-    <member name="P:Microsoft.Xrm.Sdk.EntityFilePointersRequest.FilePointers" />
+    <member name="P:Microsoft.Xrm.Sdk.EntityFilePointersRequest.FilePointers">
+      <summary>List of file pointers to reconcile.</summary>
+    </member>
     <member name="P:Microsoft.Xrm.Sdk.EntityFilePointersRequest.ObjectTypeCode" />
-    <member name="T:Microsoft.Xrm.Sdk.EntityFilePointersResponse" />
+    <member name="T:Microsoft.Xrm.Sdk.EntityFilePointersResponse">
+      <summary>Contains the response from processing <see cref="T:Microsoft.Xrm.Sdk.EntityFilePointersRequest" />.</summary>
+    </member>
     <member name="M:Microsoft.Xrm.Sdk.EntityFilePointersResponse.#ctor" />
     <member name="P:Microsoft.Xrm.Sdk.EntityFilePointersResponse.ExtensionData" />
     <member name="P:Microsoft.Xrm.Sdk.EntityFilePointersResponse.UnReferencedFiles" />
@@ -2623,11 +2650,15 @@ The ID of the record.</returns>
     <member name="M:Microsoft.Xrm.Sdk.FormattedValueCollection.#ctor">
       <summary>Initializes a new instance of the  <see cref="T:Microsoft.Xrm.Sdk.FormattedValueCollection" /> class.</summary>
     </member>
-    <member name="T:Microsoft.Xrm.Sdk.GlobalSearchConfigurationCollection" />
+    <member name="T:Microsoft.Xrm.Sdk.GlobalSearchConfigurationCollection">
+      <summary>Contains a collection of <see cref="T:Microsoft.Xrm.Sdk.GlobalSearchConfigurations" /> instances.</summary>
+    </member>
     <member name="M:Microsoft.Xrm.Sdk.GlobalSearchConfigurationCollection.#ctor" />
     <member name="T:Microsoft.Xrm.Sdk.GlobalSearchConfigurationResponseCollection" />
     <member name="M:Microsoft.Xrm.Sdk.GlobalSearchConfigurationResponseCollection.#ctor" />
-    <member name="T:Microsoft.Xrm.Sdk.GlobalSearchConfigurations" />
+    <member name="T:Microsoft.Xrm.Sdk.GlobalSearchConfigurations">
+      <summary>Contains information about a search provider and results web page.</summary>
+    </member>
     <member name="M:Microsoft.Xrm.Sdk.GlobalSearchConfigurations.#ctor" />
     <member name="M:Microsoft.Xrm.Sdk.GlobalSearchConfigurations.#ctor(System.String,System.String,System.Boolean,System.Boolean,System.Boolean)">
       <param name="searchProviderName" />
@@ -2956,12 +2987,15 @@ When called in a plug-in or custom workflow activity, a <see langword="null" /> 
       <summary>Gets the stage in the execution pipeline that a synchronous plug-in is registered for.</summary>
       <returns>Type: Int32.  Valid values are 10 (pre-validation), 20 (pre-operation), 40 (post-operation), and 50 (post-operation, deprecated).</returns>
     </member>
-    <member name="T:Microsoft.Xrm.Sdk.IPluginExecutionContextExtensions" />
+    <member name="T:Microsoft.Xrm.Sdk.IPluginExecutionContextExtensions">
+      <summary>Contains data that describes additional information about a plug-in's execution.</summary>
+    </member>
     <member name="M:Microsoft.Xrm.Sdk.IPluginExecutionContextExtensions.IsAutoTransact(Microsoft.Xrm.Sdk.IPluginExecutionContext)">
       <param name="context" />
     </member>
     <member name="M:Microsoft.Xrm.Sdk.IPluginExecutionContextExtensions.IsWithinMainTransaction(Microsoft.Xrm.Sdk.IPluginExecutionContext)">
       <param name="context" />
+      <returns>True if the plug-in executes within the main database transaction (stages 20-40) of the Execution Pipeline; otherwise false.</returns>
     </member>
     <member name="T:Microsoft.Xrm.Sdk.IProxyTypesAssemblyProvider">
       <summary>Provides the early-bound entity types assembly that was created using the CrmSvcUtil utility.</summary>
@@ -3088,12 +3122,16 @@ For the Web API the corresponding type is Label ComplexType.</summary>
       <summary>Gets or set the label for the language of the current user.</summary>
       <returns>Type: <see cref="T:Microsoft.Xrm.Sdk.LocalizedLabel" />The label for the language of the current user.</returns>
     </member>
-    <member name="T:Microsoft.Xrm.Sdk.LayerDesiredOrder" />
+    <member name="T:Microsoft.Xrm.Sdk.LayerDesiredOrder">
+      <summary>Holds data for a single hint.</summary>
+    </member>
     <member name="M:Microsoft.Xrm.Sdk.LayerDesiredOrder.#ctor" />
     <member name="P:Microsoft.Xrm.Sdk.LayerDesiredOrder.ExtensionData" />
     <member name="P:Microsoft.Xrm.Sdk.LayerDesiredOrder.Solutions" />
     <member name="P:Microsoft.Xrm.Sdk.LayerDesiredOrder.Type" />
-    <member name="T:Microsoft.Xrm.Sdk.LayerDesiredOrderType" />
+    <member name="T:Microsoft.Xrm.Sdk.LayerDesiredOrderType">
+      <summary>The type of the hint.</summary>
+    </member>
     <member name="F:Microsoft.Xrm.Sdk.LayerDesiredOrderType.Above" />
     <member name="F:Microsoft.Xrm.Sdk.LayerDesiredOrderType.Base" />
     <member name="F:Microsoft.Xrm.Sdk.LayerDesiredOrderType.Below" />
@@ -4928,8 +4966,12 @@ The property that determines whether the attribute is enabled for auditing.</ret
       <summary>Gets or sets the property that determines whether the attribute display name can be changed.</summary>
       <returns>Type: <see cref="T:Microsoft.Xrm.Sdk.BooleanManagedProperty" />The property that determines whether the attribute display name can be changed.</returns>
     </member>
-    <member name="P:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.IsRequiredForForm" />
-    <member name="P:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.IsRetrievable" />
+    <member name="P:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.IsRequiredForForm">
+      <summary>Gets or sets whether the attribute must be included in a form in a model-driven app.</summary>
+    </member>
+    <member name="P:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.IsRetrievable">
+      <summary>Gets whether the data in the attribute can be retrieved.</summary>
+    </member>
     <member name="P:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.IsSearchable" />
     <member name="P:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.IsSecured">
       <summary>Gets or sets whether the attribute is secured for field-level security.</summary>
@@ -4944,8 +4986,12 @@ The property that determines whether the attribute is enabled for auditing.</ret
       <summary>Gets whether the value can be set when a record is created.</summary>
       <returns>Type: Nullable&lt;Boolean&gt;true if the value can be set when a record is created; otherwise, false.</returns>
     </member>
-    <member name="P:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.IsValidForForm" />
-    <member name="P:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.IsValidForGrid" />
+    <member name="P:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.IsValidForForm">
+      <summary>Gets or sets whether the attribute can be added to a form in a model-driven app.</summary>
+    </member>
+    <member name="P:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.IsValidForGrid">
+      <summary>Gets or sets whether the attribute can be included in a view.</summary>
+    </member>
     <member name="P:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.IsValidForRead">
       <summary>Gets whether the value can be retrieved.</summary>
       <returns>Type: Nullable&lt;Boolean&gt;true if the value can be retrieved; otherwise, false.</returns>
@@ -5332,6 +5378,17 @@ For the Web API use the CascadeType EnumType.</summary>
     <member name="F:Microsoft.Xrm.Sdk.Metadata.CascadeType.UserOwned">
       <summary>Perform the action on all referencing entity records owned by the same user as the referenced entity record. Value = 3.</summary>
     </member>
+    <member name="T:Microsoft.Xrm.Sdk.Metadata.ClientEntityMetadata" />
+    <member name="M:Microsoft.Xrm.Sdk.Metadata.ClientEntityMetadata.#ctor" />
+    <member name="P:Microsoft.Xrm.Sdk.Metadata.ClientEntityMetadata.AttributeNames" />
+    <member name="P:Microsoft.Xrm.Sdk.Metadata.ClientEntityMetadata.EntityMetadata" />
+    <member name="P:Microsoft.Xrm.Sdk.Metadata.ClientEntityMetadata.ExtensionData" />
+    <member name="T:Microsoft.Xrm.Sdk.Metadata.ClientMetadataResults" />
+    <member name="M:Microsoft.Xrm.Sdk.Metadata.ClientMetadataResults.#ctor" />
+    <member name="P:Microsoft.Xrm.Sdk.Metadata.ClientMetadataResults.Entities" />
+    <member name="P:Microsoft.Xrm.Sdk.Metadata.ClientMetadataResults.ExtensionData" />
+    <member name="P:Microsoft.Xrm.Sdk.Metadata.ClientMetadataResults.OtherMetadata" />
+    <member name="P:Microsoft.Xrm.Sdk.Metadata.ClientMetadataResults.RelationshipNavigationEntities" />
     <member name="T:Microsoft.Xrm.Sdk.Metadata.ConstantsBase`1">
       <summary>A base class for static classes whose properties represent constants</summary>
       <typeparam name="T" />
@@ -5618,6 +5675,7 @@ The precision for the attribute.</returns>
       <summary>Gets or sets a Boolean value that specifies whether the entity key metadata is customizable.</summary>
       <returns>Type: <see cref="T:Microsoft.Xrm.Sdk.BooleanManagedProperty" />.</returns>
     </member>
+    <member name="P:Microsoft.Xrm.Sdk.Metadata.EntityKeyMetadata.IsExportKey" />
     <member name="P:Microsoft.Xrm.Sdk.Metadata.EntityKeyMetadata.IsManaged">
       <summary>Gets or sets a Boolean value that specifies whether entity key metadata is managed or not.</summary>
       <returns>Type: Boolean<see langword="True" /> if it is managed, <see langword="false" /> otherwise.</returns>
@@ -7464,7 +7522,9 @@ The hash code for the value.</returns>
       <returns>Type: Int32
 The current value.</returns>
     </member>
-    <member name="T:Microsoft.Xrm.Sdk.OptionSetValueCollection" />
+    <member name="T:Microsoft.Xrm.Sdk.OptionSetValueCollection">
+      <summary>Contains a collection of <see cref="T:Microsoft.Xrm.Sdk.OptionSetValue" /> instances.</summary>
+    </member>
     <member name="M:Microsoft.Xrm.Sdk.OptionSetValueCollection.#ctor" />
     <member name="M:Microsoft.Xrm.Sdk.OptionSetValueCollection.#ctor(System.Collections.Generic.IList{Microsoft.Xrm.Sdk.OptionSetValue})">
       <param name="list" />
@@ -7515,6 +7575,9 @@ For the Web API the corresponding type is OrganizationDetail ComplexType.</summa
       <summary>Gets a collection that identifies the service type and address for each endpoint of the organization.</summary>
       <returns>Type: <see cref="T:Microsoft.Xrm.Sdk.Organization.EndpointCollection" />The collection that identifies the service type and address for each endpoint of the organization.</returns>
     </member>
+    <member name="P:Microsoft.Xrm.Sdk.Organization.OrganizationDetail.EnvironmentId">
+      <summary>Gets or sets the unique identifier of the organization’s environment.</summary>
+    </member>
     <member name="P:Microsoft.Xrm.Sdk.Organization.OrganizationDetail.ExtensionData">
       <summary>Gets or sets extra data of the organization.</summary>
       <returns>Type: ExtensionDataObjectExtra data of the organization.</returns>
@@ -7528,6 +7591,9 @@ For the Web API the corresponding type is OrganizationDetail ComplexType.</summa
       <param name="detail">Type: <see cref="T:Microsoft.Xrm.Sdk.Discovery.OrganizationDetail" />. An organization detail of the <see langword="Discovery" /> namespace.</param>
       <returns>Type: <see cref="T:Microsoft.Xrm.Sdk.Organization.OrganizationDetail" />A populated organization detail of the <see langword="Organization" /> namespace.</returns>
     </member>
+    <member name="P:Microsoft.Xrm.Sdk.Organization.OrganizationDetail.Geo">
+      <summary>Gets or sets a value that represents the geographic region the tenant is found in.</summary>
+    </member>
     <member name="P:Microsoft.Xrm.Sdk.Organization.OrganizationDetail.OrganizationId">
       <summary>Gets or sets the global unique identifier of the organization.</summary>
       <returns>Type: GuidThe global unique identifier of the organization.</returns>
@@ -7539,6 +7605,9 @@ For the Web API the corresponding type is OrganizationDetail ComplexType.</summa
     <member name="P:Microsoft.Xrm.Sdk.Organization.OrganizationDetail.State">
       <summary>Gets or sets the state of the organization.</summary>
       <returns>Type: <see cref="T:Microsoft.Xrm.Sdk.Organization.OrganizationState" />The state of the organization.</returns>
+    </member>
+    <member name="P:Microsoft.Xrm.Sdk.Organization.OrganizationDetail.TenantId">
+      <summary>Gets or sets the unique identifier of the PowerApps tenant that contains the environment and organization.</summary>
     </member>
     <member name="P:Microsoft.Xrm.Sdk.Organization.OrganizationDetail.UniqueName">
       <summary>Gets or sets the unique name of the organization.</summary>
@@ -7740,6 +7809,7 @@ For the Web API the corresponding type is ColumnSet ComplexType.</summary>
       <summary>Gets or sets whether to retrieve all the attributes of a record.</summary>
       <returns>Type: Booleantrue to specify to retrieve all attributes; false to to retrieve only specified attributes.</returns>
     </member>
+    <member name="P:Microsoft.Xrm.Sdk.Query.ColumnSet.AttributeExpressions" />
     <member name="P:Microsoft.Xrm.Sdk.Query.ColumnSet.Columns">
       <summary>Gets the collection of <see langword="String" />s containing the names of the attributes to be retrieved from a query.</summary>
       <returns>Type: ICollection
@@ -7851,9 +7921,7 @@ The condition operator.</returns>
       <summary>The value is between two values. Value = 10.</summary>
     </member>
     <member name="F:Microsoft.Xrm.Sdk.Query.ConditionOperator.ChildOf">
-      <summary>No token name is specified &lt;token xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"&gt;
-        &lt;?Comment AL: Bug fix 5/30/12 2012-05-30T11:03:00Z  Id='2?&gt;internal&lt;?CommentEnd Id='2'
-?&gt;&lt;/token&gt;.</summary>
+      <summary>For internal use only.</summary>
     </member>
     <member name="F:Microsoft.Xrm.Sdk.Query.ConditionOperator.Contains">
       <summary>The string contains another string. Value = 49.
@@ -8165,6 +8233,10 @@ The collection of condition expressions.</returns>
       <summary>Gets or sets whether the expression is part of a quick find query.</summary>
       <returns>Type: Booleantrue if the filter is part of a quick find query; otherwise, false.</returns>
     </member>
+    <member name="T:Microsoft.Xrm.Sdk.Query.InfoCode" />
+    <member name="F:Microsoft.Xrm.Sdk.Query.InfoCode.PerformanceLeadingWildCard" />
+    <member name="F:Microsoft.Xrm.Sdk.Query.InfoCode.SyntaxError" />
+    <member name="F:Microsoft.Xrm.Sdk.Query.InfoCode.Unknown" />
     <member name="T:Microsoft.Xrm.Sdk.Query.IQueryExpressionVisitor" />
     <member name="M:Microsoft.Xrm.Sdk.Query.IQueryExpressionVisitor.Visit(Microsoft.Xrm.Sdk.Query.QueryExpression)">
       <param name="query" />
@@ -8283,6 +8355,12 @@ The logical name of the entity that you are linking to.</returns>
       <param name="attributeName">Type: String. The name of the attribute.</param>
       <param name="orderType">Type: <see cref="T:Microsoft.Xrm.Sdk.Query.OrderType" />. The order, ascending or descending.</param>
     </member>
+    <member name="M:Microsoft.Xrm.Sdk.Query.OrderExpression.#ctor(System.String,Microsoft.Xrm.Sdk.Query.OrderType,System.String)">
+      <param name="attributeName" />
+      <param name="orderType" />
+      <param name="alias" />
+    </member>
+    <member name="P:Microsoft.Xrm.Sdk.Query.OrderExpression.Alias" />
     <member name="P:Microsoft.Xrm.Sdk.Query.OrderExpression.AttributeName">
       <summary>Gets or sets the name of the attribute in the order expression.</summary>
       <returns>Type: String
@@ -8491,6 +8569,64 @@ A query can contain either <see cref="P:Microsoft.Xrm.Sdk.Query.QueryExpression.
     <member name="M:Microsoft.Xrm.Sdk.Query.QueryExpressionVisitorBase.VisitPagingInfo(Microsoft.Xrm.Sdk.Query.PagingInfo)">
       <param name="pageInfo" />
     </member>
+    <member name="T:Microsoft.Xrm.Sdk.Query.SeverityLevel" />
+    <member name="F:Microsoft.Xrm.Sdk.Query.SeverityLevel.Critical" />
+    <member name="F:Microsoft.Xrm.Sdk.Query.SeverityLevel.High" />
+    <member name="F:Microsoft.Xrm.Sdk.Query.SeverityLevel.Low" />
+    <member name="F:Microsoft.Xrm.Sdk.Query.SeverityLevel.Medium" />
+    <member name="T:Microsoft.Xrm.Sdk.Query.ValidateFetchXmlExpressionResult" />
+    <member name="M:Microsoft.Xrm.Sdk.Query.ValidateFetchXmlExpressionResult.#ctor" />
+    <member name="P:Microsoft.Xrm.Sdk.Query.ValidateFetchXmlExpressionResult.ExtensionData" />
+    <member name="P:Microsoft.Xrm.Sdk.Query.ValidateFetchXmlExpressionResult.Messages" />
+    <member name="T:Microsoft.Xrm.Sdk.Query.ValidatorIssue" />
+    <member name="M:Microsoft.Xrm.Sdk.Query.ValidatorIssue.#ctor" />
+    <member name="P:Microsoft.Xrm.Sdk.Query.ValidatorIssue.LocalizedMessageText" />
+    <member name="P:Microsoft.Xrm.Sdk.Query.ValidatorIssue.OptionalPropertyBag" />
+    <member name="P:Microsoft.Xrm.Sdk.Query.ValidatorIssue.Severity" />
+    <member name="P:Microsoft.Xrm.Sdk.Query.ValidatorIssue.TypeCode" />
+    <member name="T:Microsoft.Xrm.Sdk.Query.XrmAggregateType" />
+    <member name="F:Microsoft.Xrm.Sdk.Query.XrmAggregateType.Avg" />
+    <member name="F:Microsoft.Xrm.Sdk.Query.XrmAggregateType.Count" />
+    <member name="F:Microsoft.Xrm.Sdk.Query.XrmAggregateType.CountColumn" />
+    <member name="F:Microsoft.Xrm.Sdk.Query.XrmAggregateType.Max" />
+    <member name="F:Microsoft.Xrm.Sdk.Query.XrmAggregateType.Min" />
+    <member name="F:Microsoft.Xrm.Sdk.Query.XrmAggregateType.None" />
+    <member name="F:Microsoft.Xrm.Sdk.Query.XrmAggregateType.Sum" />
+    <member name="T:Microsoft.Xrm.Sdk.Query.XrmAttributeExpression" />
+    <member name="M:Microsoft.Xrm.Sdk.Query.XrmAttributeExpression.#ctor" />
+    <member name="M:Microsoft.Xrm.Sdk.Query.XrmAttributeExpression.#ctor(System.String)">
+      <param name="attributeName" />
+    </member>
+    <member name="M:Microsoft.Xrm.Sdk.Query.XrmAttributeExpression.#ctor(System.String,Microsoft.Xrm.Sdk.Query.XrmAggregateType)">
+      <param name="attributeName" />
+      <param name="aggregateType" />
+    </member>
+    <member name="M:Microsoft.Xrm.Sdk.Query.XrmAttributeExpression.#ctor(System.String,Microsoft.Xrm.Sdk.Query.XrmAggregateType,System.String)">
+      <param name="attributeName" />
+      <param name="aggregateType" />
+      <param name="alias" />
+    </member>
+    <member name="M:Microsoft.Xrm.Sdk.Query.XrmAttributeExpression.#ctor(System.String,Microsoft.Xrm.Sdk.Query.XrmAggregateType,System.String,Microsoft.Xrm.Sdk.Query.XrmDateTimeGrouping)">
+      <param name="attributeName" />
+      <param name="aggregateType" />
+      <param name="alias" />
+      <param name="dateTimeGrouping" />
+    </member>
+    <member name="P:Microsoft.Xrm.Sdk.Query.XrmAttributeExpression.AggregateType" />
+    <member name="P:Microsoft.Xrm.Sdk.Query.XrmAttributeExpression.Alias" />
+    <member name="P:Microsoft.Xrm.Sdk.Query.XrmAttributeExpression.AttributeName" />
+    <member name="P:Microsoft.Xrm.Sdk.Query.XrmAttributeExpression.DateTimeGrouping" />
+    <member name="P:Microsoft.Xrm.Sdk.Query.XrmAttributeExpression.ExtensionData" />
+    <member name="P:Microsoft.Xrm.Sdk.Query.XrmAttributeExpression.HasGroupBy" />
+    <member name="T:Microsoft.Xrm.Sdk.Query.XrmDateTimeGrouping" />
+    <member name="F:Microsoft.Xrm.Sdk.Query.XrmDateTimeGrouping.Day" />
+    <member name="F:Microsoft.Xrm.Sdk.Query.XrmDateTimeGrouping.FiscalPeriod" />
+    <member name="F:Microsoft.Xrm.Sdk.Query.XrmDateTimeGrouping.FiscalYear" />
+    <member name="F:Microsoft.Xrm.Sdk.Query.XrmDateTimeGrouping.Month" />
+    <member name="F:Microsoft.Xrm.Sdk.Query.XrmDateTimeGrouping.None" />
+    <member name="F:Microsoft.Xrm.Sdk.Query.XrmDateTimeGrouping.Quarter" />
+    <member name="F:Microsoft.Xrm.Sdk.Query.XrmDateTimeGrouping.Week" />
+    <member name="F:Microsoft.Xrm.Sdk.Query.XrmDateTimeGrouping.Year" />
     <member name="T:Microsoft.Xrm.Sdk.QuickFindConfiguration">
       <summary>For internal use only.</summary>
     </member>
@@ -8651,6 +8787,7 @@ The schema name for the entity relationship.</returns>
       <summary>A structure that contains extra data.</summary>
       <returns>Type: ExtensionDataObjectA structure that contains extra data.</returns>
     </member>
+    <member name="P:Microsoft.Xrm.Sdk.RemoteExecutionContext.InitiatingUserAzureActiveDirectoryObjectId" />
     <member name="P:Microsoft.Xrm.Sdk.RemoteExecutionContext.InitiatingUserId">
       <summary>Gets the global unique identifier of the system user account under which the current pipeline is executing.</summary>
       <returns>Type: GuidThe global unique identifier of the system user account.</returns>
@@ -8747,6 +8884,7 @@ The schema name for the entity relationship.</returns>
       <summary>Gets the stage in the execution pipeline that a synchronous plug-in is registered for.</summary>
       <returns>Type: Int32. Valid values are 10, 20, 40, and 50The stage in the execution pipeline that a synchronous plug-in is registered for.</returns>
     </member>
+    <member name="P:Microsoft.Xrm.Sdk.RemoteExecutionContext.UserAzureActiveDirectoryObjectId" />
     <member name="P:Microsoft.Xrm.Sdk.RemoteExecutionContext.UserId">
       <summary>Gets the global unique identifier of the system user for whom the plug-in invokes Web service methods on behalf of.</summary>
       <returns>Type: GuidThe global unique identifier of the system user.</returns>
@@ -8842,7 +8980,9 @@ The schema name for the entity relationship.</returns>
       <returns>Type: <see cref="T:Microsoft.Xrm.Sdk.Client.SaveChangesOptions" />
 The option that describes the save changes behavior.</returns>
     </member>
-    <member name="T:Microsoft.Xrm.Sdk.SdkExceptionBase" />
+    <member name="T:Microsoft.Xrm.Sdk.SdkExceptionBase">
+      <summary>Base class for SDK specific exceptions.</summary>
+    </member>
     <member name="M:Microsoft.Xrm.Sdk.SdkExceptionBase.#ctor(System.Exception)">
       <param name="innerException" />
     </member>
@@ -8897,25 +9037,41 @@ The option that describes the save changes behavior.</returns>
       <summary>Gets or sets the name of the service plan assigned to a system user.</summary>
       <returns>Name of the service plan assigned to a system user.</returns>
     </member>
-    <member name="T:Microsoft.Xrm.Sdk.SolutionInfo" />
+    <member name="T:Microsoft.Xrm.Sdk.SolutionInfo">
+      <summary>Contains information about the details of the solution.</summary>
+    </member>
     <member name="M:Microsoft.Xrm.Sdk.SolutionInfo.#ctor" />
     <member name="P:Microsoft.Xrm.Sdk.SolutionInfo.ExtensionData" />
     <member name="P:Microsoft.Xrm.Sdk.SolutionInfo.Name" />
-    <member name="T:Microsoft.Xrm.Sdk.SubscriptionData" />
+    <member name="T:Microsoft.Xrm.Sdk.SubscriptionData">
+      <summary>Provides the collection of updated or deleted entites as the result of a subscription synchronization.</summary>
+    </member>
     <member name="M:Microsoft.Xrm.Sdk.SubscriptionData.#ctor" />
     <member name="P:Microsoft.Xrm.Sdk.SubscriptionData.DeletedEntityData" />
     <member name="P:Microsoft.Xrm.Sdk.SubscriptionData.UpdatedEntityData" />
-    <member name="T:Microsoft.Xrm.Sdk.SubscriptionDeletedEntitiesData" />
+    <member name="T:Microsoft.Xrm.Sdk.SubscriptionDeletedEntitiesData">
+      <summary>A collection of <see cref="T:Microsoft.Xrm.Sdk.SubscriptionDeletedEntityData" />.</summary>
+    </member>
     <member name="M:Microsoft.Xrm.Sdk.SubscriptionDeletedEntitiesData.#ctor" />
-    <member name="T:Microsoft.Xrm.Sdk.SubscriptionDeletedEntityData" />
+    <member name="T:Microsoft.Xrm.Sdk.SubscriptionDeletedEntityData">
+      <summary>A collection of identifiers for entites deleted after a subscription synchronization.</summary>
+    </member>
     <member name="M:Microsoft.Xrm.Sdk.SubscriptionDeletedEntityData.#ctor" />
-    <member name="T:Microsoft.Xrm.Sdk.SubscriptionEntitiesMetadata" />
+    <member name="T:Microsoft.Xrm.Sdk.SubscriptionEntitiesMetadata">
+      <summary>A collection of <see cref="T:Microsoft.Xrm.Sdk.SubscriptionEntityMetadata" />.</summary>
+    </member>
     <member name="M:Microsoft.Xrm.Sdk.SubscriptionEntitiesMetadata.#ctor" />
-    <member name="T:Microsoft.Xrm.Sdk.SubscriptionEntityMetadata" />
+    <member name="T:Microsoft.Xrm.Sdk.SubscriptionEntityMetadata">
+      <summary>A collection of entity metadata definitions.</summary>
+    </member>
     <member name="M:Microsoft.Xrm.Sdk.SubscriptionEntityMetadata.#ctor" />
-    <member name="T:Microsoft.Xrm.Sdk.SubscriptionUpdatedEntitiesData" />
+    <member name="T:Microsoft.Xrm.Sdk.SubscriptionUpdatedEntitiesData">
+      <summary>A collection of <see cref="T:Microsoft.Xrm.Sdk.SubscriptionUpdatedEntityData" />.</summary>
+    </member>
     <member name="M:Microsoft.Xrm.Sdk.SubscriptionUpdatedEntitiesData.#ctor" />
-    <member name="T:Microsoft.Xrm.Sdk.SubscriptionUpdatedEntityData" />
+    <member name="T:Microsoft.Xrm.Sdk.SubscriptionUpdatedEntityData">
+      <summary>A collection of entity data updated by a subscription synchonization.</summary>
+    </member>
     <member name="M:Microsoft.Xrm.Sdk.SubscriptionUpdatedEntityData.#ctor" />
     <member name="T:Microsoft.Xrm.Sdk.SyncSubscriptionDataResponse" />
     <member name="M:Microsoft.Xrm.Sdk.SyncSubscriptionDataResponse.#ctor" />

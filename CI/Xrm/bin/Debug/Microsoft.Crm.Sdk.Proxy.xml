@@ -1272,6 +1272,7 @@ The resource for which appointments are to be ignored.</returns>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.AppValidationResponse">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the response from App validation.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.AppValidationResponse.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -1282,10 +1283,12 @@ The resource for which appointments are to be ignored.</returns>
     </member>
     <member name="P:Microsoft.Crm.Sdk.Messages.AppValidationResponse.ValidationIssueList">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>A list of errors and warnings from App validation.</summary>
       <returns></returns>
     </member>
     <member name="P:Microsoft.Crm.Sdk.Messages.AppValidationResponse.ValidationSuccess">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Indicates whether the App can be actived (true) or not (false).</summary>
       <returns></returns>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.ArtifactIdType">
@@ -3518,6 +3521,7 @@ For the Web API use the DeleteRecordChangeHistory Action.</summary>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.DeliverImmediatePromoteEmailRequest">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the data that is needed to deliver an email from an email client.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.DeliverImmediatePromoteEmailRequest.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -3584,6 +3588,7 @@ For the Web API use the DeleteRecordChangeHistory Action.</summary>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.DeliverImmediatePromoteEmailResponse">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the response from processing the <see cref="T:Microsoft.Crm.Sdk.Messages.DeliverImmediatePromoteEmailRequest" /> message.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.DeliverImmediatePromoteEmailResponse.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -3778,6 +3783,7 @@ The addresses of the recipients of the email message.</returns>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.DependentAttributeMetadata">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Individual dependent attribute metadata.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.DependentAttributeMetadata.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -3865,6 +3871,7 @@ The addresses of the recipients of the email message.</returns>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.DependentAttributeMetadataCollection">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>A collection of <see cref="T:Microsoft.Crm.Sdk.Messages.DependentAttributeMetadata" /> instances.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.DependentAttributeMetadataCollection.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -3897,6 +3904,7 @@ The addresses of the recipients of the email message.</returns>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.DependentEntityMetadata">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Individual dependent entity metadata.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.DependentEntityMetadata.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -3948,6 +3956,7 @@ The addresses of the recipients of the email message.</returns>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.DependentEntityMetadataCollection">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>A collection of <see cref="T:Microsoft.Crm.Sdk.Messages.DependentEntityMetadata" /> instances.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.DependentEntityMetadataCollection.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -3985,6 +3994,7 @@ The addresses of the recipients of the email message.</returns>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.DependentManyToManyRelationshipMetadata">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Individual N:N dependent relationship metadata.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.DependentManyToManyRelationshipMetadata.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -4020,6 +4030,7 @@ The addresses of the recipients of the email message.</returns>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.DependentOptionMetadata">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Individual option set metadata.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.DependentOptionMetadata.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -4043,6 +4054,7 @@ The addresses of the recipients of the email message.</returns>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.DependentOptionMetadataCollection">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>A collection of <see cref="T:Microsoft.Crm.Sdk.Messages.DependentOptionMetadata" /> instances.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.DependentOptionMetadataCollection.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -4105,6 +4117,7 @@ The addresses of the recipients of the email message.</returns>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.DependentRelationship">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Individual 1:N or N:1 dependent relationship.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.DependentRelationship.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -4160,6 +4173,7 @@ The addresses of the recipients of the email message.</returns>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.DependentRelationshipCollection">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>A collection of <see cref="T:Microsoft.Crm.Sdk.Messages.DependentRelationship" /> instances.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.DependentRelationshipCollection.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -4391,6 +4405,7 @@ For the Web API the DownloadReportDefinitionResponse ComplexType is the response
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.EntityRelationsWithDependantEntityMetadata">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>The attributes of a given entity; Relational entities with attributes metadata and dependent entity metadata.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.EntityRelationsWithDependantEntityMetadata.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -4909,6 +4924,7 @@ For the Web API use the FindParentResourceGroup Function .</summary>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.FormatAddressRequest">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the data to compute an address based on country and format parameters.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.FormatAddressRequest.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -4935,6 +4951,7 @@ For the Web API use the FindParentResourceGroup Function .</summary>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.FormatAddressResponse">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the response from processing the <see cref="T:Microsoft.Crm.Sdk.Messages.FormatAddressRequest" /> message.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.FormatAddressResponse.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -4971,6 +4988,7 @@ For the Web API use the FindParentResourceGroup Function .</summary>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.FormDisplayOrderCollection">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>A collection of <see cref="T:Microsoft.Crm.Sdk.Messages.FormDisplayOrder" /> instances.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.FormDisplayOrderCollection.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -5252,6 +5270,7 @@ For the Web API use the GetAllTimeZonesWithDisplayName Function.</summary>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.GetAutoNumberSeedResponse">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the response from processing the <see cref="T:Microsoft.Crm.Sdk.Messages.GetAutoNumberSeedRequest" /> message.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.GetAutoNumberSeedResponse.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -5449,6 +5468,7 @@ For the Web API use the GetInvoiceProductsFromOpportunity Action.</summary>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.GetNextAutoNumberValueResponse">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the response from processing the <see cref="T:Microsoft.Crm.Sdk.Messages.GetNextAutoNumberValueRequest" /> message.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.GetNextAutoNumberValueResponse.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -5665,6 +5685,7 @@ For the Web API the GetTrackingTokenEmailResponse ComplexType is the response va
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.ImmediateBookRequest">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the data to book an appointment transactionally, obeying the constraints specified by the associated service and the supplied appointment request.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.ImmediateBookRequest.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -5687,6 +5708,7 @@ For the Web API the GetTrackingTokenEmailResponse ComplexType is the response va
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.ImmediateBookResponse">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the response from processing the <see cref="T:Microsoft.Crm.Sdk.Messages.ImmediateBookRequest" /> message.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.ImmediateBookResponse.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -5701,6 +5723,7 @@ For the Web API the GetTrackingTokenEmailResponse ComplexType is the response va
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.ImportCardTypeSchemaRequest">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the data to import and create a new cardtype required by the installed solution.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.ImportCardTypeSchemaRequest.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -5711,6 +5734,7 @@ For the Web API the GetTrackingTokenEmailResponse ComplexType is the response va
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.ImportCardTypeSchemaResponse">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the response from processing the <see cref="T:Microsoft.Crm.Sdk.Messages.ImportCardTypeSchemaRequest" /> message.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.ImportCardTypeSchemaResponse.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -5807,6 +5831,7 @@ For the Web API use the ImportRecordsImport Action.</summary>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.ImportSolutionAsyncRequest">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the data to import a solution using the Asynchonous Service.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.ImportSolutionAsyncRequest.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -5837,6 +5862,7 @@ For the Web API use the ImportRecordsImport Action.</summary>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.ImportSolutionAsyncResponse">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the response from processing the <see cref="T:Microsoft.Crm.Sdk.Messages.ImportSolutionAsyncRequest" /> message.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.ImportSolutionAsyncResponse.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -5906,6 +5932,7 @@ For the Web API use the ImportSolution Action.</summary>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.ImportSolutionsRequest">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the data to import multiple solutions.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.ImportSolutionsRequest.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -5940,6 +5967,7 @@ For the Web API use the ImportSolution Action.</summary>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.ImportSolutionsResponse">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the response from processing the <see cref="T:Microsoft.Crm.Sdk.Messages.ImportSolutionsRequest" /> message.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.ImportSolutionsResponse.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -7122,6 +7150,7 @@ The ID of the resource specification that is represented by this party. This cor
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.ProvisionLanguageAsyncRequest">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the data that is needed to provision a new language using a background job.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.ProvisionLanguageAsyncRequest.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -7132,6 +7161,7 @@ The ID of the resource specification that is represented by this party. This cor
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.ProvisionLanguageAsyncResponse">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the response from processing the <see cref="T:Microsoft.Crm.Sdk.Messages.ProvisionLanguageAsyncRequest" /> message.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.ProvisionLanguageAsyncResponse.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -7205,6 +7235,7 @@ For the Web API use the PublishDuplicateRule Action.</summary>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.PublisherInformation">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains information about a publisher.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.PublisherInformation.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -7413,6 +7444,7 @@ Web API support for this message was added with  December 2016 update for Micros
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.QueryMetadata">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Base (common) metadata for a query.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.QueryMetadata.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -7556,6 +7588,7 @@ For the Web API the QueryScheduleResponse ComplexType is the response value from
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.QueryWithEntityMetadata">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Represents a query along with its dependencies.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.QueryWithEntityMetadata.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -7574,12 +7607,14 @@ For the Web API the QueryScheduleResponse ComplexType is the response value from
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.QueueUpdateRibbonClientMetadataRequest">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the data to queue UpdateRibbonClientMetadata to a background job.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.QueueUpdateRibbonClientMetadataRequest.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.QueueUpdateRibbonClientMetadataResponse">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the response from processing the <see cref="T:Microsoft.Crm.Sdk.Messages.QueueUpdateRibbonClientMetadataRequest" /> message.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.QueueUpdateRibbonClientMetadataResponse.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -7680,6 +7715,7 @@ For the Web API use the Recalculate Action.</summary>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.RelationshipType">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>The type of relationship.</summary>
     </member>
     <member name="F:Microsoft.Crm.Sdk.Messages.RelationshipType.ManyToManyRelationship">
       <moniker>dynamics-general-ce-9</moniker>
@@ -7737,6 +7773,7 @@ For the Web API, use the RemoveAppComponents Action.</summary>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.RemoveAppComponentsResponse">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the response from processing the <see cref="T:Microsoft.Crm.Sdk.Messages.RemoveAppComponentsRequest" /> message.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.RemoveAppComponentsResponse.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -8396,12 +8433,14 @@ For the Web API use the RetrieveAllChildUsersSystemUser Function.</summary>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.RetrieveAnalyticsStoreDetailsRequest">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the data to retrieves Analytics Store (aka 'Azure Data Lake' Storage container) details.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.RetrieveAnalyticsStoreDetailsRequest.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.RetrieveAnalyticsStoreDetailsResponse">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the response from processing the <see cref="T:Microsoft.Crm.Sdk.Messages.RetrieveAnalyticsStoreDetailsRequest" /> message.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.RetrieveAnalyticsStoreDetailsResponse.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -8412,6 +8451,7 @@ For the Web API use the RetrieveAllChildUsersSystemUser Function.</summary>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.RetrieveAppComponentsRequest">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the data to return components of an App.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.RetrieveAppComponentsRequest.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -8422,6 +8462,7 @@ For the Web API use the RetrieveAllChildUsersSystemUser Function.</summary>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.RetrieveAppComponentsResponse">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the response from processing the <see cref="T:Microsoft.Crm.Sdk.Messages.RetrieveAppComponentsRequest" /> message.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.RetrieveAppComponentsResponse.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -10178,6 +10219,7 @@ Contains the response from the <see cref="T:Microsoft.Crm.Sdk.Messages.RetrieveT
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.RetrieveTimelineWallRecordsRequest">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the data to retrieve all the activity pointer entities along with the parties and attachements as dictated by the fetch xml.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.RetrieveTimelineWallRecordsRequest.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -10196,6 +10238,7 @@ Contains the response from the <see cref="T:Microsoft.Crm.Sdk.Messages.RetrieveT
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.RetrieveTimelineWallRecordsResponse">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the response from processing the <see cref="T:Microsoft.Crm.Sdk.Messages.RetrieveTimelineWallRecordsRequest" /> message.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.RetrieveTimelineWallRecordsResponse.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -10206,6 +10249,7 @@ Contains the response from the <see cref="T:Microsoft.Crm.Sdk.Messages.RetrieveT
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.RetrieveTotalRecordCountRequest">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the data to retrieve the total entity record count.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.RetrieveTotalRecordCountRequest.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -10216,6 +10260,7 @@ Contains the response from the <see cref="T:Microsoft.Crm.Sdk.Messages.RetrieveT
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.RetrieveTotalRecordCountResponse">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the response from processing the <see cref="T:Microsoft.Crm.Sdk.Messages.RetrieveTotalRecordCountRequest" /> message.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.RetrieveTotalRecordCountResponse.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -10474,6 +10519,7 @@ Contains the data needed to retrieve the user settings for the specified system 
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.RetrieveUsersPrivilegesThroughTeamsRequest">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the data to retrieve privileges which the user gets through team memberships.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.RetrieveUsersPrivilegesThroughTeamsRequest.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -10492,6 +10538,7 @@ Contains the data needed to retrieve the user settings for the specified system 
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.RetrieveUsersPrivilegesThroughTeamsResponse">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the response from processing the <see cref="T:Microsoft.Crm.Sdk.Messages.RetrieveUsersPrivilegesThroughTeamsRequest" /> message.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.RetrieveUsersPrivilegesThroughTeamsResponse.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -11601,6 +11648,7 @@ For the Web API use the SetReportRelated Action.</summary>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.StageAndUpgradeRequest">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the data to import a solution, stage it for upgrade, and apply the upgrade as the default (when applicable).</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.StageAndUpgradeRequest.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -11631,6 +11679,7 @@ For the Web API use the SetReportRelated Action.</summary>
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.StageAndUpgradeResponse">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the response from processing the <see cref="T:Microsoft.Crm.Sdk.Messages.StageAndUpgradeRequest" /> message.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.StageAndUpgradeResponse.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -12210,6 +12259,7 @@ The property instances (dynamic property instances) for a product to be updated.
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.ValidateAppRequest">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the data to validate an App.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.ValidateAppRequest.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
@@ -12220,11 +12270,33 @@ The property instances (dynamic property instances) for a product to be updated.
     </member>
     <member name="T:Microsoft.Crm.Sdk.Messages.ValidateAppResponse">
       <moniker>dynamics-general-ce-9</moniker>
+      <summary>Contains the response from processing the <see cref="T:Microsoft.Crm.Sdk.Messages.ValidateAppRequest" /> message.</summary>
     </member>
     <member name="M:Microsoft.Crm.Sdk.Messages.ValidateAppResponse.#ctor">
       <moniker>dynamics-general-ce-9</moniker>
     </member>
     <member name="P:Microsoft.Crm.Sdk.Messages.ValidateAppResponse.AppValidationResponse">
+      <moniker>dynamics-general-ce-9</moniker>
+      <summary>The response from App validation.</summary>
+      <returns></returns>
+    </member>
+    <member name="T:Microsoft.Crm.Sdk.Messages.ValidateFetchXmlExpressionRequest">
+      <moniker>dynamics-general-ce-9</moniker>
+    </member>
+    <member name="M:Microsoft.Crm.Sdk.Messages.ValidateFetchXmlExpressionRequest.#ctor">
+      <moniker>dynamics-general-ce-9</moniker>
+    </member>
+    <member name="P:Microsoft.Crm.Sdk.Messages.ValidateFetchXmlExpressionRequest.FetchXml">
+      <moniker>dynamics-general-ce-9</moniker>
+      <returns></returns>
+    </member>
+    <member name="T:Microsoft.Crm.Sdk.Messages.ValidateFetchXmlExpressionResponse">
+      <moniker>dynamics-general-ce-9</moniker>
+    </member>
+    <member name="M:Microsoft.Crm.Sdk.Messages.ValidateFetchXmlExpressionResponse.#ctor">
+      <moniker>dynamics-general-ce-9</moniker>
+    </member>
+    <member name="P:Microsoft.Crm.Sdk.Messages.ValidateFetchXmlExpressionResponse.ValidationResults">
       <moniker>dynamics-general-ce-9</moniker>
       <returns></returns>
     </member>
