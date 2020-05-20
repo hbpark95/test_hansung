@@ -76,6 +76,7 @@ D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\Microsoft.Owin.Security.Twitter.dll
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\Microsoft.Web.Infrastructure.dll
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\Microsoft.WindowsAzure.Storage.dll
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\Newtonsoft.Json.dll
+D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\NLog.AzureStorage.dll
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\NLog.dll
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\Owin.dll
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\System.Net.Http.Formatting.dll
@@ -202,4 +203,3 @@ D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\obj\Debug\HANSUNG.Web.csprojAssemblyRef
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\obj\Debug\HANSUNG.Web.csproj.CopyComplete
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\obj\Debug\HANSUNG.dll
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\obj\Debug\HANSUNG.pdb
-D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Web\bin\NLog.AzureStorage.dll

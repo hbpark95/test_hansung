@@ -577,6 +577,9 @@ namespace HANSUNG.Core.Service
 
                 #endregion
 
+                _logger.Trace("route.perPage" + route.perPage);
+                _logger.Trace("route.page" + route.page);
+
                 //var con = _config.Xrm.ContactSet.FirstOrDefault();
 
                 vmodel.data.contents.AddRange((from contact in _config.Xrm.ContactSet.OrderBy(x => x.LastName).OrderBy(y=>y.FirstName)
@@ -590,6 +593,7 @@ namespace HANSUNG.Core.Service
 
                 //int count = 190000;
                 int count = guidList.Count();
+                _logger.Trace("count" + count);
 
                 vmodel.data.pagination.page = route.page;
                 vmodel.data.pagination.totalCount = count;
