@@ -597,7 +597,8 @@ namespace HANSUNG.Core.Service
             }
             catch (Exception ex)
             {
-                _exceptionLogger.Error(ex, "##### ContactService/GetContactList #####");
+                //_exceptionLogger.Error(ex, "##### ContactService/GetContactList #####");
+                _exceptionLogger.Error(ex);
                 if (ex.InnerException != null)
                 {
                     _exceptionLogger.Error(ex.InnerException, "##### ContactService/GetContactList Innerexception #####");
