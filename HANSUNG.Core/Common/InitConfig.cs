@@ -70,6 +70,7 @@ namespace HANSUNG.Core.Common
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex);
                 throw;
             }
         }

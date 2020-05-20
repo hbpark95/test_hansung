@@ -22,20 +22,20 @@ namespace HANSUNG.Core.Models
     {
         public DataContactListModel()
         {
-            contents = new ToastGridSubContact();
+            contents = new List<SubContact>();
             pagination = new Pagination();
         }
 
-        public ToastGridSubContact contents { get; set; }
+        public List<SubContact> contents { get; set; }
         public Pagination pagination { get; set; }
     }
 
-    public class ToastGridSubContact
-    {
-        public ToastGridSubContact()
-        {
-            contactList = new List<SubContact>();
-        }
-        public List<SubContact> contactList { get; set; }
-    }
+    //public class ToastGridSubContact
+    //{
+    //    public ToastGridSubContact()
+    //    {
+    //        contactList = new List<SubContact>();
+    //    }
+    //    public List<SubContact> contactList { get; set; }
+    //}
 }

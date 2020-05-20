@@ -1,8 +1,10 @@
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\NLog.config
+D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\HANSUNG.Core.dll.config
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\HANSUNG.Core.dll
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\HANSUNG.Core.pdb
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\CI.Xrm.dll
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\CI.XrmEntity.dll
+D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
@@ -18,6 +20,7 @@ D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\CI.XrmEntity.pdb
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\CI.XrmEntity.dll.config
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\CI.Xrm.pdb
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\CI.Xrm.dll.config
+D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\NLog.xml
@@ -25,11 +28,3 @@ D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\obj\Debug\HANSUNG.Core.csprojAssemblyR
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\obj\Debug\HANSUNG.Core.csproj.CopyComplete
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\obj\Debug\HANSUNG.Core.dll
 D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\obj\Debug\HANSUNG.Core.pdb
-D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\NLog.Azure.dll
-D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
-D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\Microsoft.Azure.Storage.Common.dll
-D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
-D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\Microsoft.Azure.Storage.Common.xml
-D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\Microsoft.WindowsAzure.Storage.dll
-D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
-D:\svn\HANSUNG\trunk\src\ISV\HANSUNG.Core\bin\Debug\Microsoft.WindowsAzure.Storage.xml

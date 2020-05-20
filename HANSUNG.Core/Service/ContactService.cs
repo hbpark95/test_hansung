@@ -1,5 +1,6 @@
 ﻿using HANSUNG.Core.Common;
 using HANSUNG.Core.Models;
+using NLog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -576,16 +577,19 @@ namespace HANSUNG.Core.Service
 
                 #endregion
 
-                List<Guid?> guidList = _config.Xrm.ContactSet.Select(x => x.ContactId).ToList();
+                //var con = _config.Xrm.ContactSet.FirstOrDefault();
 
-                int count = guidList.Count();
-
-                vmodel.data.contents.contactList.AddRange((from contact in _config.Xrm.ContactSet.OrderBy(x => x.FullName)
+                vmodel.data.contents.AddRange((from contact in _config.Xrm.ContactSet.OrderBy(x => x.LastName).OrderBy(y=>y.FirstName)
                                                            select new SubContact()
                                                            {
                                                                Email = contact.EMailAddress1,
-                                                               FullName = contact.FullName
+                                                               FullName = contact.LastName + contact.FirstName
                                                            }).Skip((route.page - 1) * route.perPage).Take(route.perPage).ToList());
+
+                List<Guid?> guidList = _config.Xrm.ContactSet.Select(x => x.ContactId).ToList();
+
+                //int count = 190000;
+                int count = guidList.Count();
 
                 vmodel.data.pagination.page = route.page;
                 vmodel.data.pagination.totalCount = count;
